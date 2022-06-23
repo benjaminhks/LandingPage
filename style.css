@@ -1,0 +1,84 @@
+body {
+    margin: 0 5px;
+    min-height 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 400px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.topcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 400px;
+    flex: 1;
+    gap: 200px;
+}
+
+.topcard {
+    width: 300px;
+    height: 125px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middlecontainer {
+    display: flex;
+    gap: 52px;
+    flex: 1;
+    max-width: 1500px;
+    margin: 50px auto;
+}
+
+img {
+    width: 100%;
+    flex: 1;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+.middleheader {
+    display: flex;
+    justify-content: center;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.griffith2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bannercontainer {
+    display: flex;
+    gap: 52px;
+    margin: 50px auto;
+}
+
+.footer{
+    margin-top: auto;
+    display:flex;
+    justify-content:center;
+}
