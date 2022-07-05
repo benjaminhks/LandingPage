@@ -1,6 +1,6 @@
 body {
     margin: 0 5px;
-    min-height 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -11,32 +11,29 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 400px;
     align-items: center;
-    flex-shrink: 0;
+    justify-content: space-around;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .topcontainer {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 400px;
-    flex: 1;
-    gap: 200px;
+    justify-content: space-around;
+
 }
 
 .topcard {
-    width: 300px;
-    height: 125px;
     display:flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    width: 300px
+    
 }
 
 .middlecontainer {
@@ -64,8 +61,13 @@ img {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 800px;
 }
+
+.quotecolour{
+    background-color: #E5E7EB;
+}
+
 .griffith2 {
     display: flex;
     justify-content: flex-end;
@@ -74,11 +76,50 @@ img {
 .bannercontainer {
     display: flex;
     gap: 52px;
-    margin: 50px auto;
+    margin: 30px auto;
+    padding: 50px;
+    color: #E5E7EB;
 }
 
 .footer{
     margin-top: auto;
     display:flex;
     justify-content:center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.colourhero {
+    background-color: #1F2937;
+}
+
+.anothercontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 75px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #FFFF;
+}
+.websiteawesome{
+    font-weight: extra-bold;
+    font-size: 48px ;
+    color: #F9FAF8;
+}
+
+.logo, .anothercontainer {
+    color: #F9FAF8;
+}
+
+.bannercontainer {
+    background-color: #3882F6;
+}
+
+.griffith, .griffith2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
